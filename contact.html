@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="information on how to contact RainyDays customer Support" />
+    <link rel="stylesheet" href="/css/contact.css" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <title>RainyDays | Contact page</title>
+  </head>
+  <body display="flex">
+    <header>
+      <figure class="logo-container">
+        <a href="/index.html">
+          <img
+            src="/images/RainyDays_Logo.jpg"
+            alt="RainyDays logo"
+            class="logo"
+          />
+        </a>
+      </figure>
+      <nav>
+        <a href="/index.html">HOME</a>
+        <a href="/about.html">ABOUT US</a>
+        <a href="/products.html">PRODUCTS</a>
+        <a href="/contact.html" class="active">CONTACT</a>
+        <div>
+          <a href="/cart.html">
+            <img class="cart-icon" src="/assets/shopping-cart_1_5.png" alt="icon for shapping cart/checkout." />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+        <p>
+            You may contact us on one of the following telephone numbers. You may also cotact us by email. If so we will respond either my phone or email.
+        </p>
+        <p>
+            RainyDays customer service: <b>+47 1234-5678</b>
+        </p>
+        <p>
+            Support opening hours:  <b>Tuesday - Friday 08 am - 4 pm</b>
+        </p>
+    </section>
+    <div id="message"></div>
+      <form method="POST">
+        <div class="form-wrapper">
+            <p>Email contact form. All fields required</p>
+          <Section>
+            <label for="name">Full name:
+              <input type="text" id="name" name="name" />
+            </label>
+            <div class="form-error-message" id="nameError">
+              Please enter more characters
+            </div>
+            <label for="email">Email address:
+              <input type="email" name="email" id="email"/>
+            </label>
+            <div class="form-error-message" id="emailError">
+              Please enter correct email format
+            </div>
+            <label for="phone">Phone number:
+              <input type="tel" id="phone" name="phone"/>
+            </label>
+            <div class="form-error-message" id="phoneError">
+              Please enter more characters
+            </div>
+            <label for="order">Order number:
+              <input type="tel" id="order" name="order" />
+            </label>
+            <div class="form-error-message" id="orderError">
+              Please enter more characters
+            </div>
+            <label for="messsage">Message:
+              <textarea name="message" id="message" cols="30" rows="10" maxlength="100"></textarea>
+            </label>
+            <div class="form-error-message" id="topicError">
+              Please enter more characters
+            </div>
+            <button class="btn-submit" disabled><b>Send</b></button>
+          </form>
+          </Section>
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <a href="/index.html">
+          <img
+            src="/images/RainyDays_Logo.jpg"
+            alt="RainyDays logo"
+            class="footer-logo"
+        /></a>
+        <div>
+          <div>
+            <h4>Follow us</h4>
+          </div>
+          <div id="social-icons">
+            <i
+              ><img
+                src="/assets/Social icons/facebook-icon_mobile.png"
+                alt="facebook social icon"
+            /></i>
+            <i
+              ><img
+                src="/assets/Social icons/instagram-icon_mobile.png"
+                alt="Instagram social icon"
+            /></i>
+            <i
+              ><img
+                src="/assets/Social icons/twitter-icon_mobile.png"
+                alt="Twitter social icon"
+            /></i>
+            <i
+              ><img
+                src="/assets/Social icons/youtube-icon_mobile.png"
+                alt="Youtube social icon"
+            /></i>
+          </div>
+        </div>
+        <div>
+          <h4 class="heading-quaternary">Support</h4>
+          <ul>
+            <li><a href="#">Shipping & Return</a></li>
+            <li><a href="#">Help & FAQ</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="heading-quaternary">Company</h4>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <h4 class="copyright">copyright &copy;2022 RainyDays</h4>
+    </footer>
+    <script src="/js/contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "cross-course-project-Nickenn",
+    "liveServer.settings.port": 5502
+  }
+}
