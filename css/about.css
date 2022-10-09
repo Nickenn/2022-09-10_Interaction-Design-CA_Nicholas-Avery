@@ -1,0 +1,56 @@
+h1 {
+  margin: 8px;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 12px;
+  margin:0px;
+  flex:1;
+  margin-top: 100px;
+  font-size:22px;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../images/about-page.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px;
+  max-width: 1400px;
+  color: #ffffffe6;
+}
+
+
+@media (max-width:700px) {
+
+  nav {
+    font-size: 10px;
+  }
+  
+  main {
+    margin-top: 0px;
+    padding: 20px;
+    font-size: 18px;
+    max-width: 1400px;
+  }
+
+}
+
+@media (max-width:475px) {
+    nav a {
+      padding: 106px;
+    }
+}
+
+@media (min-width:1100px) {
+  main {
+    margin: 240px ;
+  }
+}
+
+@media (min-width:2100px) {
+  main {
+    margin: 250px 600px  ;
+  }
+}

@@ -1,0 +1,28 @@
+h1 {
+    margin-left: 40px;
+}
+
+.cart-row {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+}
+
+.cart-total {
+    margin: 20px 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.checkout-button {
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+.cart-total-title {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}

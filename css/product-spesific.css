@@ -1,0 +1,36 @@
+img {
+    max-width: 300px;
+}
+
+p {
+    max-width: 400px;
+}
+
+.product-specific-small img {
+    max-width: 100px;
+}
+
+@media (max-width: 432px) {
+    img {
+        max-width: 150px;
+    }
+
+    .product-specific-small img {
+        max-width: 50px;
+    }
+}
+
+@media (min-width: 800px) {
+    main {
+        margin-left: 200px;
+    }
+}
+
+@media (min-width:1000px) {
+    main {
+        margin-left: 300px;
+        margin-top: 150px;
+    }
+
+}
+    

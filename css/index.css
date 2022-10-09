@@ -1,0 +1,41 @@
+
+.home-welcometext {
+  padding: 30px
+}
+
+.home-content {
+  display: flex;
+  flex-direction: row;
+  border-radius:5px;
+}
+
+.home-content figure, .home-content div {
+  flex: 1;
+}
+
+.cta-home {
+  padding: 13px 50px;
+  background-color: #FFA715;
+  text-transform: uppercase;
+  font-size: 19px;
+  border-radius: 15px;
+  margin-top: 40px;
+
+}
+
+@media (max-width:900px) {
+  .home-content {
+    flex-direction: column;
+  }
+}
+
+@media (min-width:800px) {
+  .home-content {
+    font-size: 2em;
+  }
+
+  p {
+    margin-bottom: 150px;
+  }
+
+}

@@ -1,0 +1,52 @@
+@media (min-width:1200px) {
+  .logo-container {
+    max-width: 300px;
+  }
+  
+  nav {
+    padding: 50px;
+  }
+  
+}
+  
+@media (min-width:1050px) {
+  header {
+    flex-direction: row;
+  }
+}
+
+  
+@media (max-width:743px) {
+  nav {
+    padding: 5px;
+  }
+}
+
+@media (max-width:571px) {
+  nav a {
+    font-size: 15px;
+    padding:10px;
+  }
+}
+
+@media (max-width:400px) {
+  main {
+    margin-top: 0px;
+  }
+  header {
+    flex-direction: row;
+  }
+  .logo-container {
+    max-width: 100px;
+  }
+  nav {
+    max-width: 100px;
+  }
+}
+
+@media (min-width: 467px) {
+  nav a {
+    padding: 20px;
+  }
+
+}
