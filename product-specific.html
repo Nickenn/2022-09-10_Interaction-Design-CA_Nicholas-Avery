@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="/css/product-spesific.css" />
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="/css/media.css" />
-    <script src="/js/checkout.js" type="module" async></script>
     <title>RainyDays | Normandy high performance</title>
   </head>
   <body display="flex">
@@ -25,10 +24,10 @@
         </a>
       </figure>
       <nav>
-        <a href="/index.html">HOME</a>
-        <a href="/about.html">ABOUT US</a>
+        <a href="/index.html" class="active">HOME</a>
+        <a href="/about.html" class="aboutnav">ABOUT US</a>
         <a href="/products.html" class="active">PRODUCTS</a>
-        <a href="/contact.html">CONTACT</a>
+        <a href="/contact.html" class="contactnav">CONTACT</a>
         <div>
           <a href="/cart.html">
             <img class="cart-icon" src="/assets/shopping-cart_1_5.png" alt="icon for shapping cart/checkout." />
@@ -37,6 +36,9 @@
       </nav>
     </header>
     <main>
+      <div class="details-container">
+
+      </div>
       <h1>Normandy high performance jacket</h1>
       <p>Itemnumber: 123456-A</p>
       <figure>
@@ -136,12 +138,13 @@
         <div>
           <h4 class="heading-quaternary">Company</h4>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="aboutnav"><a href="about.html">About</a></li>
+            <li  class="contactnav"><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
       <h4 class="copyright">copyright &copy;2022 RainyDays</h4>
     </footer>
+    <script src="/js/product-specific.js"></script>
   </body>
 </html>

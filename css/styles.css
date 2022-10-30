@@ -3,6 +3,7 @@
   src: url(/fonts/Berlin\ Sans\ FB\ Regular.ttf) format("Truetype");
 }
 
+
 body {
     font-family: "Berlin Sans", Verdana, Geneva, Tahoma, sans-serif;
     margin: 10px;
@@ -20,12 +21,16 @@ body {
   
   nav {
     display: flex;
-    background-color: #6f9cb0;
+    background-color: #1db4c57c;
     padding: 20px 10px;
     margin-bottom: 20px;
-    border-radius: 12px;
+    border-radius: 4px;
   }
   
+  .homenav:hover, .aboutnav:hover, .contactnav:hover, .productsnav:hover {
+    text-decoration: underline;
+  }
+
   img {
     width: 100%;
     border-radius: 4px;
@@ -49,10 +54,15 @@ body {
   
   .cta {
     padding: 5px 30px;
-    background-color: #FFA715;
+    background-color: #ffa515;
     text-transform: uppercase;
     font-size:1em;
     border-radius:3px;
+  }
+
+  .cta:hover {
+    color: #f9f9f9;
+    background-color: #ffa51569;
   }
 
   .cta-sale {
@@ -64,7 +74,6 @@ body {
   }
 
   footer {
-    display: block;
     margin-top: 40px;
   }
 
@@ -82,6 +91,11 @@ body {
 
   }
 
+  .copyright {
+    background-color: #1db4c57c;
+    padding: 10px 0px;
+    margin: 0px;
+  }
 
   .footer-logo {
     max-width: 15rem;

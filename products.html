@@ -24,10 +24,10 @@
         </a>
       </figure>
       <nav>
-        <a href="/index.html">HOME</a>
-        <a href="/about.html">ABOUT US</a>
+        <a href="/index.html" class="homenav">HOME</a>
+        <a href="/about.html" class="aboutnav">ABOUT US</a>
         <a href="/products.html" class="active">PRODUCTS</a>
-        <a href="/contact.html">CONTACT</a>
+        <a href="/contact.html" class="contactnav">CONTACT</a>
         <div>
           <a href="/cart.html">
             <img
@@ -40,156 +40,17 @@
       </nav>
     </header>
     <main>
-      <section>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image shop-item-image"
-              />
-            </a>
-            <h1 class="shop-item-title">Normandy high performance</h1>
-            <div class="shop-item-details">
-              <p>Itemnnumber: 123456-A</p>
-              <h2 class="shop-item-price">$139.99</h2>
-            </div>
-          </figure>
+      <div>
+        <div class="search">
+          <input type="search" class="search" />
+          <button class="search-button">Search</button>
         </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image"
-              />
-            </a>
-            <h1>Normandy high performance</h1>
-            <p>Itemnnumber: 123456-A</p>
-            <h3 class="old-price">$139.99</h3>
-            <div class="sale">
-              <h2>$69.99</h2>
-              <h2 class="sale-text">SAVE $70!</h2>
-            </div>
-          </figure>
+        <div class="categories">
+          <label for="featured">Featured</label>
+          <input type="radio" id="featured" class="category" name="category" />
         </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image shop-item-image"
-              />
-            </a>
-            <h1 class="shop-item-title">Normandy high performance</h1>
-            <div class="shop-item-details">
-              <p>Itemnnumber: 123456-A</p>
-              <h2 class="shop-item-price">$139.99</h2>
-            </div>
-          </figure>
-        </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image shop-item-image"
-              />
-            </a>
-            <h1 class="shop-item-title">Normandy high performance</h1>
-            <div class="shop-item-details">
-              <p>Itemnnumber: 123456-A</p>
-              <h2 class="shop-item-price">$139.99</h2>
-            </div>
-          </figure>
-        </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image shop-item-image"
-              />
-            </a>
-            <h1 class="shop-item-title">Normandy high performance</h1>
-            <div class="shop-item-details">
-              <p>Itemnnumber: 123456-A</p>
-              <h2 class="shop-item-price">$139.99</h2>
-            </div>
-          </figure>
-        </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image"
-              />
-            </a>
-            <h1>Normandy high performance</h1>
-            <p>Itemnnumber: 123456-A</p>
-            <h3 class="old-price">$139.99</h3>
-            <div class="sale">
-              <h2>$69.99</h2>
-              <h2 class="sale-text">SAVE $70!</h2>
-            </div>
-          </figure>
-        </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image shop-item-image"
-              />
-            </a>
-            <h1 class="shop-item-title">Normandy high performance</h1>
-            <div class="shop-item-details">
-              <p>Itemnnumber: 123456-A</p>
-              <h2 class="shop-item-price">$139.99</h2>
-            </div>
-          </figure>
-        </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image shop-item-image"
-              />
-            </a>
-            <h1 class="shop-item-title">Normandy high performance</h1>
-            <div class="shop-item-details">
-              <p>Itemnnumber: 123456-A</p>
-              <h2 class="shop-item-price">$139.99</h2>
-            </div>
-          </figure>
-        </div>
-        <div class="shop-item">
-          <figure>
-            <a href="/product-specific.html">
-              <img
-                src="/images/product-image.jpg"
-                alt="Image of Normandy high performance jacket"
-                class="product-image shop-item-image"
-              />
-            </a>
-            <h1 class="shop-item-title">Normandy high performance</h1>
-            <div class="shop-item-details">
-              <p>Itemnnumber: 123456-A</p>
-              <h2 class="shop-item-price">$139.99</h2>
-            </div>
-          </figure>
-        </div>
-      </section>
+      </div>
+      <div class="products-container"></div>
     </main>
     <footer class="footer">
       <div class="footer-container">
@@ -238,13 +99,13 @@
         <div>
           <h4 class="heading-quaternary">Company</h4>
           <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="aboutnav"><a href="about.html">About</a></li>
+            <li class="contactnav"><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </div>
       <h4 class="copyright">copyright &copy;2022 RainyDays</h4>
     </footer>
-    <script src="/js/checkout.js" type="module" async></script>
+    <script src="/js/products.js"></script>
   </body>
 </html>
