@@ -15,7 +15,7 @@ async function fetchProducts(url) {
         productContainer.innerHTML += `<a href="/product-specific.html?id=${product.id}" class="single-product">
         <div class="single-product">
         <div class="product"><h2>${product.name}</h2></div>
-        <div class="product-image" class="product" style="background-image: url('${product.images[0].src}')"><div class="product-price"><h2>kr. ${product.prices.price},-</h2></div></div>
+        <div class="product-image" class="product" style="background-image: url('${product.images[0].src}')"><div class="product-price"><h5>kr. ${product.prices.price},-</h5></div></div>
         <div class="product"><h4>${product.short_description}</h4></div>
         </div>
         </a>`

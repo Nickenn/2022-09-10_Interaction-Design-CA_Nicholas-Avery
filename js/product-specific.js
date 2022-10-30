@@ -16,7 +16,21 @@ async function fetchProduct(url) {
     
     console.log(product.name);
 
-    detailsContainer.innerHTML = `<h1>${product.name}</h1>`
+    detailsContainer.innerHTML = `        
+    <div class="single-product">
+    <div class="product"><h1>${product.name}</h1></div>
+    <img class="product-image" src="${product.images[0].src}"/></figure>
+    <section display="flex" class="product-specific-small">
+      <img src="${product.images[0].src}" alt="Image of Normandy high performance jacket" class="product-image"/></figure>
+      <img src="${product.images[0].src}" alt="Image of Normandy high performance jacket" class="product-image"/></figure>
+      <img src="${product.images[0].src}" alt="Image of Normandy high performance jacket" class="product-image"/></figure>
+      <img src="${product.images[0].src}" alt="Image of Normandy high performance jacket" class="product-image"/></figure>
+     </section>
+    <div class="product-price"><h3>kr. ${product.prices.price},-</h3></div>
+    <div class="product"><h4>${product.short_description}</h4></div>
+    <a href="/successpage.html" class="cta">ADD TO CART</a>
+    <h3>Description:</h3>
+    <div class="product"><p>${product.description}</p></div>`;
 
     createHTML(productDetails);
 
@@ -26,14 +40,6 @@ async function fetchProduct(url) {
     console.log(error);
  }
 
-fetchProduct(url);
+}
 
-function createHTML(productDetails) {
-    detailsContainer.innerHTML += `
-        <div class="single-product">
-        <div class="product"><h1>${product.name}</h1></div>
-        <div class="product-image" class="product" style="background-image: url('${product.images[0].src}')"></div>
-        <div class="product-price"><h2>kr. ${product.prices.price},-</h2></div>
-        <div class="product"><h4>${product.description}</h4></div>`;
-}
-}
+fetchProduct(url);

@@ -38,7 +38,7 @@ button {
 }
 
 .single-product:hover {
-    background-color: rgba(248, 248, 248, 0.145);
+    background-color: rgba(248, 248, 248, 0.043);
     box-shadow: .75em .75em 1em rgba(8, 8, 8, 0.16);
 }
 
@@ -51,7 +51,7 @@ button {
     background-color: rgba(0, 0, 0, 0.793);
     margin: 40px 50px 150px 5px;
     padding: 2px 5px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 footer {
