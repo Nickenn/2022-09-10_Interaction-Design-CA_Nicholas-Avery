@@ -32,9 +32,7 @@ async function fetchProduct(url) {
     <h3>Description:</h3>
     <div class="product"><p>${product.description}</p></div>`;
 
-    createHTML(productDetails);
-
-    }
+ }
 
  catch(error) {
     console.log(error);
