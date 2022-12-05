@@ -1,4 +1,4 @@
-# RainyDays storefront website
+# Cross-course Project
 
 ![image](https://user-images.githubusercontent.com/100228811/205624540-051595da-6f79-4c43-952b-4b35438ee7cd.jpg)
 
