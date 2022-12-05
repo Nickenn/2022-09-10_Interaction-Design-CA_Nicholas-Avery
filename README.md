@@ -1,12 +1,12 @@
 Your project title
 
-[rainy-days_homepage](https://user-images.githubusercontent.com/100228811/205624540-051595da-6f79-4c43-952b-4b35438ee7cd.jpg)
+![image](https://user-images.githubusercontent.com/100228811/205624540-051595da-6f79-4c43-952b-4b35438ee7cd.jpg)
 
 
-A simple overview of the use/purpose of the project.
+Storefront for website that sells rainclothing. 
 
 Description
-Add a more detailed description of what your project entails and set out to do.
+In this project I was tasked to create a site that sells rainclothing. I was to add a product page, avbout paage, contact page, checkout page and checkout success page. The products are drawn fram a wordpress api call and the contact page has form validation. 
 
 You can add some bullet points if you'd like to:
 
