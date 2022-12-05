@@ -6,7 +6,7 @@
 Storefront for website that sells rainclothing. 
 
 ## Description
-In this project I was tasked to create a site that sells rainclothing. I was to add a product page, avbout paage, contact page, checkout page and checkout success page. The products are drawn fram a wordpress api call and the contact page has form validation. 
+In this project I was tasked to create a site that sells rainclothing. I was to add a product page, about page, contact page, checkout page and checkout success page. The products are drawn fram a wordpress api call and the contact page has form validation. 
 
 You can add some bullet points if you'd like to:
 
